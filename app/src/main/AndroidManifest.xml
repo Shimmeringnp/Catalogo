@@ -12,8 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Catalogo"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity2"
+            android:name=".DetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MyListItems"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
